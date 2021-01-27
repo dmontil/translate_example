@@ -1,0 +1,3 @@
+home:
+  title: Bienvenido a Problemas y Soluciones
+  name(String name): "Hoy tenemos con nosotros a $name"
