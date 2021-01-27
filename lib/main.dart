@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ],
 
       home: Scaffold(
-        appBar: AppBar(title: Text('Codigo Flutter'),backgroundColor: Colors.green,),
+        appBar: AppBar(title: Text('P&S'),backgroundColor: Colors.green,),
         body: BodyOne()
       ),
     );
@@ -29,7 +29,6 @@ class MyApp extends StatelessWidget {
 List<Locale> supportedLocales() => [
   const Locale('en'),
   const Locale('es'),
-  const Locale('de'),
 ];
 
 
@@ -42,7 +41,6 @@ class BodyOne extends StatelessWidget {
         children: [
           Text(context.t().home.title),
           Text(context.t().home.name('Dani')),
-          // Text(('a'))
         ]
       ),
     );
