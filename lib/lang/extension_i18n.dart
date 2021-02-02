@@ -7,7 +7,7 @@ extension I10n on BuildContext {
     Locale myLocale = Localizations.localeOf(this);
     print(myLocale);
     if (myLocale.toString() == 'en') {
-      return Es();
+      return En();
     }
     return Es();
 

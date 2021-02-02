@@ -1,3 +1,4 @@
 home:
     title: Welcome to Problems & Solutions
     name(String name): "Today we have with us $name"
+    apple(int cnt,String name): " $name se has eaten $cnt ${_plural(cnt, one:'apple', many:'apples')}."

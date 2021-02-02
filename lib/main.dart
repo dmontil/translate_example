@@ -40,7 +40,9 @@ class BodyOne extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(context.t().home.title),
-          Text(context.t().home.name('Dani')),
+          Text(context.t().home.name('Daniel')),
+          Text(context.t().home.apple(1,'Daniel')),
+
         ]
       ),
     );

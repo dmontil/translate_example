@@ -18,5 +18,6 @@ class HomeEs {
 	const HomeEs(this._parent);
 	String get title => """Bienvenido a Problemas y Soluciones""";
 	String name(String name) => """Hoy tenemos con nosotros a $name""";
+	String apple(int cnt,String name) => """ $name se ha comido $cnt ${_plural(cnt, one:'manzana', many:'manzanas')}.""";
 }
 

@@ -18,5 +18,6 @@ class HomeEn {
 	const HomeEn(this._parent);
 	String get title => """Welcome to Problems & Solutions""";
 	String name(String name) => """Today we have with us $name""";
+	String apple(int cnt,String name) => """ $name se has eaten $cnt ${_plural(cnt, one:'apple', many:'apples')}.""";
 }
 
